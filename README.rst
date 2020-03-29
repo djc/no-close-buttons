@@ -18,6 +18,9 @@ by adding a custom ``userChrome.css`` file to your Firefox profile:
       @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
       .tab-close-button { display: none !important; }
    
+
+#. Open "Advanced Preferences" by typing ``about:config`` in the address bar.
+#. Search for ``toolkit.legacyUserProfileCustomizations.stylesheets`` and set it to ``true``.
 #. Restart Firefox
 
 History
